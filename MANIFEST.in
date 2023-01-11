@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_sale_order_utility *.css
+recursive-include erpnext_sale_order_utility *.csv
+recursive-include erpnext_sale_order_utility *.html
+recursive-include erpnext_sale_order_utility *.ico
+recursive-include erpnext_sale_order_utility *.js
+recursive-include erpnext_sale_order_utility *.json
+recursive-include erpnext_sale_order_utility *.md
+recursive-include erpnext_sale_order_utility *.png
+recursive-include erpnext_sale_order_utility *.py
+recursive-include erpnext_sale_order_utility *.svg
+recursive-include erpnext_sale_order_utility *.txt
+recursive-exclude erpnext_sale_order_utility *.pyc
